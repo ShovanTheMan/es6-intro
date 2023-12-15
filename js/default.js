@@ -6,7 +6,7 @@ function add(first, second){
 const result = add(10, 20);
 console.log(result);
 
-function fullName (first , last = 'chowdhury'){
+function fullName (first , last = 'chowdhury'){ //default parameter
     const name = first + ' ' + last;
     return name;
 }
